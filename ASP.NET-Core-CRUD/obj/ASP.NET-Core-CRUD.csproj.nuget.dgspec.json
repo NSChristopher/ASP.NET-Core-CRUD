@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\noahd\\source\\repos\\ASP.NET-Core-CRUD\\ASP.NET-Core-CRUD\\ASP.NET-Core-CRUD.csproj": {}
+    "C:\\Users\\noahd\\source\\repos\\ASP.Net-Core-CRUD\\ASP.NET-Core-CRUD\\ASP.NET-Core-CRUD.csproj": {}
   },
   "projects": {
-    "C:\\Users\\noahd\\source\\repos\\ASP.NET-Core-CRUD\\ASP.NET-Core-CRUD\\ASP.NET-Core-CRUD.csproj": {
+    "C:\\Users\\noahd\\source\\repos\\ASP.Net-Core-CRUD\\ASP.NET-Core-CRUD\\ASP.NET-Core-CRUD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\noahd\\source\\repos\\ASP.NET-Core-CRUD\\ASP.NET-Core-CRUD\\ASP.NET-Core-CRUD.csproj",
+        "projectUniqueName": "C:\\Users\\noahd\\source\\repos\\ASP.Net-Core-CRUD\\ASP.NET-Core-CRUD\\ASP.NET-Core-CRUD.csproj",
         "projectName": "ASP.NET-Core-CRUD",
-        "projectPath": "C:\\Users\\noahd\\source\\repos\\ASP.NET-Core-CRUD\\ASP.NET-Core-CRUD\\ASP.NET-Core-CRUD.csproj",
+        "projectPath": "C:\\Users\\noahd\\source\\repos\\ASP.Net-Core-CRUD\\ASP.NET-Core-CRUD\\ASP.NET-Core-CRUD.csproj",
         "packagesPath": "C:\\Users\\noahd\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\noahd\\source\\repos\\ASP.NET-Core-CRUD\\ASP.NET-Core-CRUD\\obj\\",
+        "outputPath": "C:\\Users\\noahd\\source\\repos\\ASP.Net-Core-CRUD\\ASP.NET-Core-CRUD\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -58,11 +58,21 @@
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[3.1.10, )"
+              "version": "[3.1.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.11, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.10, )"
+              "version": "[3.1.11, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.5, )"
             }
           },
           "imports": [
