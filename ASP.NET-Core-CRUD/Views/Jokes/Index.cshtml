@@ -1,4 +1,5 @@
-﻿@model IEnumerable<ASP.NET_Core_CRUD.Models.Joke>
+﻿
+@model IEnumerable<ASP.NET_Core_CRUD.Models.Joke>
 
 @{
     ViewData["Title"] = "Index";
@@ -26,9 +27,6 @@
         <tr>
             <td>
                 @Html.DisplayFor(modelItem => item.JokeQuestion)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.JokeAnswere)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
