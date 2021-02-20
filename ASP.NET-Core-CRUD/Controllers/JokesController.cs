@@ -25,6 +25,18 @@ namespace ASP.NET_Core_CRUD.Controllers
             return View(await _context.Joke.ToListAsync());
         }
 
+        // GET: Jokes/ShowSearchForm
+        public async Task<IActionResult> ShowSearchForm()
+        {
+            return View();
+        }
+
+        // GET: Jokes/ShowSearchResults
+        public async Task<IActionResult> ShowSearchResults(string SearchPhrase)
+        {
+            return View("Index", await _context.Joke.Where(j => j.JokeQuestion.Contains (SearchPhrase)).ToListAsync());
+        }
+
         // GET: Jokes/Details/5
         public async Task<IActionResult> Details(int? id)
         {

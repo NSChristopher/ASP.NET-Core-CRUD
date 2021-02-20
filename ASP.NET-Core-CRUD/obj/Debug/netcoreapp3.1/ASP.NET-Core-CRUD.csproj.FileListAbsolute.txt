@@ -188,3 +188,4 @@ C:\Users\noahd\source\repos\ASP.Net-Core-CRUD\ASP.NET-Core-CRUD\obj\Debug\netcor
 C:\Users\noahd\source\repos\ASP.Net-Core-CRUD\ASP.NET-Core-CRUD\obj\Debug\netcoreapp3.1\ASP.NET-Core-CRUD.pdb
 C:\Users\noahd\source\repos\ASP.Net-Core-CRUD\ASP.NET-Core-CRUD\obj\Debug\netcoreapp3.1\ASP.NET-Core-CRUD.genruntimeconfig.cache
 C:\Users\noahd\source\repos\ASP.Net-Core-CRUD\ASP.NET-Core-CRUD\obj\Debug\netcoreapp3.1\ASP.NET-Core-CRUD.csprojAssemblyReference.cache
+C:\Users\noahd\source\repos\ASP.Net-Core-CRUD\ASP.NET-Core-CRUD\obj\Debug\netcoreapp3.1\Razor\Views\Jokes\ShowSearchForm.cshtml.g.cs
